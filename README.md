@@ -4,6 +4,7 @@ An improved version of the Boat Racing Game created earlier. Game is implemented
 > Demonstration of Game
 
 ![image](https://user-images.githubusercontent.com/106059007/210911777-d9ed7631-854a-4515-9eba-cdadc570ed85.png)
+![image](https://user-images.githubusercontent.com/106059007/210913175-7b26c42a-1525-41dc-bec9-626ae8234ede.png)
 ![image](https://user-images.githubusercontent.com/106059007/210911806-e5e70277-820b-4677-99d2-c7eb135c8e04.png)
 ![image](https://user-images.githubusercontent.com/106059007/210911999-b640902e-94b2-462c-b76e-4ea6f900ab9c.png)
 ![image](https://user-images.githubusercontent.com/106059007/210912046-afc179f3-e843-4b2f-b31d-70cac94a5320.png)
