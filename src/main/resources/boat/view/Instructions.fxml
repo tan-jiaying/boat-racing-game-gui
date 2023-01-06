@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boat.view.InstructionsController">
+   <children>
+      <FlowPane prefHeight="600.0" prefWidth="900.0">
+         <children>
+            <Pane prefHeight="600.0" prefWidth="900.0">
+               <children>
+                  <ImageView fx:id="instructionsBg" fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button fx:id="backButton" layoutX="33.0" layoutY="483.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="62.0" prefWidth="174.0" text="Back to Main Menu" />
+                  <Label layoutX="290.0" layoutY="46.0" prefHeight="88.0" prefWidth="320.0" text="How to Play">
+                     <font>
+                        <Font size="60.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.51" />
+                     </effect>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="207.0" text="2. Each player will be allocated with a boat and compete against each other.">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="247.0" text="3. The river can be visualized as a track with 100 tiles, filled with random numbers of currents and traps.">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="43.0" layoutY="287.0" text="4. Each player will take turns to throw the dice to determine the number of steps to be moved forward.">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="327.0" text="5. If a current is encountered, player moves forward even furthur by the magnitude of the current.">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="367.0" text="6. If a trap is encountered, player moves backward by the magnitude of the trap.">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="407.0" text="7. The player that reaches the end of the river first wins the game! ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="167.0" text="1. This is a two player game.">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>
